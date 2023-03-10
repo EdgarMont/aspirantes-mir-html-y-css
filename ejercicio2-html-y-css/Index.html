@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,33 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1>Receta: Ensalada</h1>
+    
+    <div class="FormularioLogin">
+        <h2>Login</h2>
+        <form class="cuerpoForm">
+            <label>Email</label><br>
+            <input class="Input"type="text" required><br>
+
+            <label>Password</label><br>
+            <input class="Input"type="Password" required><br>
+
+            <label>Género</label><br>
+            <select class="Input">
+                <option
+                Value="Masculino">Masculino</option>
+                <option
+                Value="Femenino">Femenino</option>
+                <option
+                Value="Otro">Otro</option>
+            </select><br>
+            
+            <label>Acepto los termino
+                <input type="checkbox" id="checkbox1">
+            </label><br>
+        </form>
+        <button class="ingresar">Ingresar</button>
+    </div>
+    
     
 </body>
 </html>

@@ -1,0 +1,42 @@
+.FormularioLogin{
+    background: radial-gradient(#bd09b7,#6b4cf5);
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px 0 rgb(107, 113, 117);
+    
+}
+.Input{
+    padding: 7px;
+    width: 260px;
+}
+.ingresar{
+    position: relative;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat();
+    justify-items: end;
+    align-items: center;
+    left: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+
+}
+
+@media screen and (max-width: 500px){
+    .FormularioLogin{
+        width: 100%;
+    }
+    .Input{
+        width: 100%;
+    }
+    .ingresar{
+        left: 60%;
+    }
+
+}
